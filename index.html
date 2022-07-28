@@ -353,16 +353,58 @@
                 <p>It is a long extablished fact that a reader will be distracted by the readable content of a page when
                     looking at its layout </p>
             </div>
+
+
             <div class="col-lg-6  col-12 d-lg-flex justify-content-end">
                 <div>
+                    <!----------------------- Register button + modal design -------------------->
+                    <button type="button" class="btn bg-light text-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
 
-                    <a href="" class="btn bg-light text-primary">Register Now</a>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark fw-bold" id="exampleModalLabel">Course Register
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label text-dark">Enter Your Name
+                                                :</label>
+                                            <input type="username" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label text-dark">Enter Your Moblie
+                                                number &
+                                                Address :</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
 
         </div>
     </main>
+
+
 
 
 
